@@ -4,7 +4,7 @@ max=6
 
 roll_again="yes"
 
-while roll_again=="yes":
+while roll_again=="yes" or roll_again=="y" or roll_again=="Yes" or ==roll_again=="YES" or roll_again=="Y":
 	print "Rolling the dices"
 	print "The values are..."
 	print random.randint(min,max)
